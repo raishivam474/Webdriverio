@@ -8,7 +8,7 @@ describe("Adding a product to Cart in Amazon and verifying the product in Cart",
         await Login_page.LoadUrl("https://www.amazon.in/")
 
         
-        await Login_page.Loginto_amazon('9340011097','Shivam@23')
+        await Login_page.Loginto_amazon('username','password')
     })
     it("Search For Product on Amazon and add it to cart",async()=>{
         
